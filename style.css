@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 20%;
+    background-color: purple;
+}
+nav, footer{
+    height: 10%;
+    background-color: purple;
+}
+aside{
+    height: 60%;
+    background-color: purple;
+    width: 20%;
+    float: left;
+}
+main{
+    height: 60%;
+    width: 60%;
+    background-color: purple;
+    float: left;
+}
+#second{
+   float: right;
+}
+footer{
+    clear: both;
+}
